@@ -1,4 +1,4 @@
-# murat.bio
+# muratc.com
 
 Bu statik site, tekrar eden HTML parçaları ve sayfa metadatası için Nginx SSI kullanır.
 
