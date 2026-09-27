@@ -319,12 +319,12 @@ button {
 }
 
 /* Sosyal bağlantılar */
-.social-links {
+.profile-links {
   display: flex;
   justify-content: center;
 }
 
-.social-link {
+.profile-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,30 +334,30 @@ button {
   transition: color 0.5s;
 }
 
-.social-link:hover {
+.profile-link:hover {
   color: var(--c-text-1);
   transition: color 0.25s;
 }
 
-.social-link>svg {
+.profile-link>svg {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-.nav-social-links {
+.nav-profile-links {
   display: none;
   margin-right: -8px;
 }
 
 @media (min-width: 1280px) {
-  .nav-social-links {
+  .nav-profile-links {
     display: flex;
     align-items: center;
   }
 }
 
-.nav-menu+.nav-social-links::before {
+.nav-menu+.nav-profile-links::before {
   margin-right: 8px;
   margin-left: 8px;
   width: 1px;
@@ -426,7 +426,7 @@ button {
   visibility: visible;
 }
 
-.nav-extra-menu .social-links {
+.nav-extra-menu .profile-links {
   margin: -4px 4px;
 }
 
@@ -601,7 +601,7 @@ html:has(.nav-toggle:checked) {
   color: var(--c-brand-1);
 }
 
-.nav-screen-social {
+.nav-screen-profiles {
   margin-top: 16px;
 }
 
@@ -963,7 +963,7 @@ html:has(.nav-toggle:checked) {
   text-align: center;
 }
 
-.footer-social,
+.footer-profiles,
 .footer-copyright {
   line-height: 24px;
   font-size: 15px;
@@ -971,25 +971,25 @@ html:has(.nav-toggle:checked) {
   color: var(--c-text-2);
 }
 
-.footer-social {
+.footer-profiles {
   display: flex;
   justify-content: space-around;
   min-width: 220px;
   margin-bottom: 1rem;
 }
 
-.footer-social a {
+.footer-profiles a {
   display: block;
   text-decoration: none;
   transition: color 0.25s;
 }
 
-.footer-social a:hover,
+.footer-profiles a:hover,
 .footer-copyright a:hover {
   color: var(--c-text-1);
 }
 
-.footer-social svg {
+.footer-profiles svg {
   width: 24px;
   height: 24px;
   fill: currentColor;
